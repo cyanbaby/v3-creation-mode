@@ -1,37 +1,54 @@
-# 项目创建历史
-**使用 create-vue 创建的Vue3项目，无 TypeScript**
+# Vue3 Start
+> 本项目演示多种方式创建Vue3项目，并对比差异性
 
+## 创建方式
+
+### create-vue
+已安装 16.0 或更高版本的 Node.js
+**默认是 构建默认是vite，且只有vite**
 ```shell
-$ npm create vue@latest
-# npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
-
-# Vue.js - The Progressive JavaScript Framework
-
-√ Project name: ... create-vue-nots--demo01
-√ Add TypeScript? ... No
-√ Add JSX Support? ... No 
-√ Add Vue Router for Single Page Application development? ... Yes
-√ Add Pinia for state management? ... Yes
-√ Add Vitest for Unit Testing? ... No
-√ Add an End-to-End Testing Solution? » No
-√ Add ESLint for code quality? ... No
-
-# Scaffolding project in C:\Users\zhangg\projects\cucurbitbaby\tiled_items\v3-creation-mode\create-vue-nots--demo01...
-
-# Done. Now run:
-
-  # cd create-vue-nots--demo01
-  # npm install
-  # npm run dev
-
+npm create vue@latest
 ```
+
 参考:
-- [Vue3项目搭建教程（create-vue）](https://blog.csdn.net/qq_47792525/article/details/131466525)
+- [创建你的第一个 Vue3 项目——Vue 教程](https://juejin.cn/post/7222092486667845693)
+- [cn.vuejs.org](https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application)
 
+### Vue CLI
+https://cli.vuejs.org/zh/guide/
+⚠️ Vue CLI 现已处于维护模式!
+现在官方推荐使用 create-vue 来创建基于 Vite 的新项目。 另外请参考 Vue 3 工具链指南 以了解最新的工具推荐。
 
-# start
 ```shell
-npm install
 
-npm run dev
+npm install -g @vue/cli
+
+vue --version
+# @vue/cli 5.0.8
+
+vue create hello-world
 ```
+
+参考:
+- [cli.vuejs.org](https://cli.vuejs.org/zh/guide/installation.html)
+
+
+### Vite
+```shell
+vite --version
+
+npm create vite@latest
+```
+
+参考:
+- [cn.vitejs.dev](https://cn.vitejs.dev/guide/)
+- [Svelte小试——Svelte+Vite+TypeScript实现ToDoList](https://juejin.cn/post/7204635326559322170)
+
+
+
+# TODO
+- Vite目前支持的模板预设
+- webpack 对比 vite
+    - [vite和webpack的区别](https://worktile.com/kb/p/52284)
+    - [vite多久后能干掉webpack？](https://www.zhihu.com/question/477139054?utm_division=hot_list_page)
+

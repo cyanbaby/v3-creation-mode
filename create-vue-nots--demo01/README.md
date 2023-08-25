@@ -1,29 +1,37 @@
-# create-vue-nots--demo01
+# 项目创建历史
+**使用 create-vue 创建的Vue3项目，无 TypeScript**
 
-This template should help get you started developing with Vue 3 in Vite.
+```shell
+$ npm create vue@latest
+# npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
 
-## Recommended IDE Setup
+# Vue.js - The Progressive JavaScript Framework
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+√ Project name: ... create-vue-nots--demo01
+√ Add TypeScript? ... No
+√ Add JSX Support? ... No 
+√ Add Vue Router for Single Page Application development? ... Yes
+√ Add Pinia for state management? ... Yes
+√ Add Vitest for Unit Testing? ... No
+√ Add an End-to-End Testing Solution? » No
+√ Add ESLint for code quality? ... No
 
-## Customize configuration
+# Scaffolding project in C:\Users\zhangg\projects\cucurbitbaby\tiled_items\v3-creation-mode\create-vue-nots--demo01...
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# Done. Now run:
 
-## Project Setup
+  # cd create-vue-nots--demo01
+  # npm install
+  # npm run dev
 
-```sh
+```
+参考:
+- [Vue3项目搭建教程（create-vue）](https://blog.csdn.net/qq_47792525/article/details/131466525)
+
+
+# start
+```shell
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
